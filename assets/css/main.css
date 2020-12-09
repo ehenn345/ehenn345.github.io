@@ -57,7 +57,7 @@ body {
 
 mark {
 	background-color: transparent;
-	color: inherit;
+	color: gold;
 }
 
 input::-moz-focus-inner {
@@ -83,9 +83,9 @@ input, select, textarea {
 	}
 
 	html {
-		background-color: #313a3d;
+		background-color: rgba(255, 255, 128, 0.5);
 		background-attachment: fixed,						fixed;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), url("sailboat.jpeg");
 		background-position: top left,					center center;
 		background-repeat: repeat,						none;
 		background-size: auto,						cover;
