@@ -1,5 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap');
 
 /*
 	Read Only by HTML5 UP
@@ -22,7 +23,7 @@ section, summary, time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font-family: 'Nanum Myeongjo', serif;
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
@@ -117,7 +118,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #4acaa8 !important;
+			color: #4a81ca8e !important;
 		}
 
 	strong, b {
@@ -1785,7 +1786,7 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		color: #4acaa8;
+		color: #4a699991;
 		font-size: 3.5em;
 	}
 
@@ -2402,7 +2403,7 @@ input, select, textarea {
 			}
 
 			ul.feature-icons li:before {
-				background: #4acaa8;
+				background: #9ccce7;
 				border-radius: 100%;
 				color: #ffffff;
 				display: block;
@@ -2618,7 +2619,7 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #4acaa8;
+			background-color: #89c7eb;
 			color: #ffffff !important;
 		}
 
@@ -2700,7 +2701,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #4acaa8;
+		background: #dce3ee;
 		color: #d2f2e9;
 		height: 100%;
 		overflow-y: auto;
@@ -2712,15 +2713,15 @@ input, select, textarea {
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: #c8ced4;
 		}
 
 			#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
-				color: #ffffff;
+				color: #000000;
 			}
 
 		#header header p {
-			color: #b7eadc;
+			color: #000000;
 		}
 
 		#header a {
@@ -2728,7 +2729,7 @@ input, select, textarea {
 		}
 
 			#header a:hover {
-				color: #ffffff !important;
+				color: #000000 !important;
 			}
 
 		#header > header {
@@ -2751,7 +2752,7 @@ input, select, textarea {
 			}
 
 			#header > header p {
-				color: #d2f2e9;
+				color: #0d0e0ed5;
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -2772,7 +2773,7 @@ input, select, textarea {
 			}
 
 				#header > footer .icons li a {
-					color: #b7eadc;
+					color: #ffffff;
 				}
 
 		#header > nav {
@@ -2789,7 +2790,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #5ccfb1;
+					border-top: solid 2px #f4f6f7;
 					display: block;
 					padding: 0;
 				}
@@ -2800,7 +2801,7 @@ input, select, textarea {
 						-ms-transition: none;
 						transition: none;
 						border: 0;
-						color: #ffffff !important;
+						color: #bbb8b8 !important;
 						display: block;
 						padding: 0.85em 0;
 						text-decoration: none;
@@ -2808,7 +2809,7 @@ input, select, textarea {
 
 						#header > nav ul li a.active {
 							background: #fff;
-							color: #4acaa8 !important;
+							color: #000000 !important;
 						}
 
 					#header > nav ul li:first-child {
